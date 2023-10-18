@@ -1,10 +1,11 @@
 import React from 'react';
 import NavContainer from './containers/NavContainer';
+// import './styles.scss';
 
 function App() {
   return (
-    <div>
-      <h1>TEST UWU {new Date().toString()}</h1>
+    <div id='app'>
+      <h1 className='orangesans'>TEST UWU {new Date().toString()}</h1>
       <NavContainer></NavContainer>
     </div>
   );

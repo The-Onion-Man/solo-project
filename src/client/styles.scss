@@ -1,8 +1,21 @@
+body {
+  background-color: rgb(14, 14, 14);
+}
+
+.app {
+  display: flex;
+}
+
+.orangesans {
+  color: rgb(228, 186, 107);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .navbox {
-  /* max-width: 650px;
-  margin: 0 auto;
+  background-color: rgb(8, 8, 8);
+  align-self: flex-start;
+  // max-width: 20%;
   padding: 10px;
-  box-shadow: 10px 15px 39px rgba(0, 0, 0, 0.2);
-  border-radius: 5px; */
-  border-color: red;
+  box-shadow: 5px 5px 5px rgb(228, 186, 107, 0.05);
+  border-radius: 5px;
 }
