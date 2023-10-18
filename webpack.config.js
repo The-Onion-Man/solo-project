@@ -31,4 +31,15 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
   },
+  devServer: {
+    port: 8080,
+    // watchContentBase: true,
+    static: {
+      directory: path.resolve(__dirname, 'build'),
+      publicPath: '/',
+    },
+    // proxy: {
+    //   '/': 'http://localhost:3000/',
+    // },
+  },
 };
